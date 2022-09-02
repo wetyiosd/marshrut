@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/marshrut" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Маршурт"
+        android:textColor="#6A93D4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick1"
+
+        android:text="1. Парк Камней"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick2"
+
+        android:text="2. Буква П"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick3"
+
+        android:text="3. Драмтеатр
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick4"
+        android:text="4. Памятник героям фронта и тыла"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick5"
+
+        android:text="5. Эспланада"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick7"
+        android:text="7. Парк М. Горького"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick8"
+        android:text="8. Театр оперы и балета"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick9"
+        android:text="9. Счастье не за горами"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick10"
+
+        android:text="10. Набережная"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick11"
+        android:text="11. Художественная галерея"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:onClick="onClick6"
+        android:text="6. Памятник 'Пермяк-соленые уши'"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.09" />
+</androidx.constraintlayout.widget.ConstraintLayout>
